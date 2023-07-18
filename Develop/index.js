@@ -9,64 +9,64 @@ const fs = require("fs");
 const questions = [
   {
     type: "input",
-    message: "What is your project title?",
+    message: "Project title:",
     name: "title",
   },
   {
     type: "input",
-    message: "What is the description of the project?",
+    message: "Description:",
     name: "description",
   },
   {
     type: "input",
-    message: "How would one install this?",
+    message: "Installation:",
     name: "install",
   },
   {
     type: "input",
-    message: "How would one use this?",
+    message: "Usage:",
     name: "usage",
   },
   {
     type: "input",
-    message: "Who are you giving credit to?",
+    message: "Credit:",
     name: "credit",
   },
   {
     type: "list",
-    message: "License?",
+    message: "License",
     name: "license",
     choices: [
       {
         name: "MIT",
-        value: `![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)
-
-      Copyright (c) [2023] [fullname]
-      
-      Permission is hereby granted, free of charge, to any person obtaining a copy
-      of this software and associated documentation files (the "Software"), to deal
-      in the Software without restriction, including without limitation the rights
-      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-      copies of the Software, and to permit persons to whom the Software is
-      furnished to do so, subject to the following conditions:
-      
-      The above copyright notice and this permission notice shall be included in all
-      copies or substantial portions of the Software.
-      
-      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-      SOFTWARE.`,
+        value: `![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)\n
+        This project is covered under the MIT license.`,
       },
-      "Apache Lincense 2.0",
-      "GNU General Public License v3.0",
-      "BSD2-Clause Simplified License",
-      "BSD 3-Clause New/Revised License",
-      "Boost Software License 1.0",
-      "Creative Commons Zero v1.0 Universal, Eclipse Public License 2.0, Mozilla Public License 2.0",
+      {
+        name: "Apache Lincense 2.0",
+        value: `![Apache License 2.0](https://img.shields.io/badge/license-Apache-blue.svg)\n
+        This project is covered under the Apache license.`,
+      },
+      {
+        name: "GNU General Public License v3.0",
+        value: `![Apache License 2.0](https://img.shields.io/badge/license-GNU-blue.svg)\n
+        This project is covered under th GNU General Public license.`,
+      },
+      {
+        name: "BSD 3-Clause New/Revised License",
+        value: `![Apache License 2.0](https://img.shields.io/badge/license-BSD 3-Clause-blue.svg)\n
+        This project is covered under the BSD 3-Clause New/Revised license.`,
+      },
+      {
+        name: "Boost Software License 1.0",
+        value: `![Apache License 2.0](https://img.shields.io/badge/license-Boost Software-blue.svg)\n
+        This project is covered under the Boost Software license.`,
+      },
+      {
+        name: "Mozilla Public License 2.0",
+        value: `![Apache License 2.0](https://img.shields.io/badge/license-Mozilla-blue.svg)\n
+        This project is covered under the Mozilla Public license.`,
+      },
     ],
   },
   {
@@ -76,17 +76,17 @@ const questions = [
   },
   {
     type: "input",
-    message: "Contributions guidelines?",
+    message: "Contributions guidelines:",
     name: "contribution",
   },
   {
     type: "input",
-    message: "Email URL?",
+    message: "Email address:",
     name: "email",
   },
   {
     type: "input",
-    message: "Github URL?",
+    message: "Github username:",
     name: "github",
   },
 ];
@@ -125,7 +125,13 @@ ${description}
 
 ## Table of Contents 
 
+[credits](#credits)
+
+[license](#license)
+
 [questions](#questions)
+
+[contribution](#contribution)
 
 ## Installation
 
@@ -155,9 +161,9 @@ ${contribution}
 
 ## Questions
 
-${email}
+Email: ${email}
 
-[${github}](https://www.github.com/${github})`;
+Github Profile Link: [${github}](https://www.github.com/${github})`;
 
 // TODO: Create a function to initialize app
 function init() {}
