@@ -2,19 +2,22 @@
 
 ## Description
 
-This project generates profile looking README.md files.
+This project generates profile looking README.md files. This project was built to more automate the creation of professional looking readme.md files.
 
 ## Installation
 
-e
+Download the module 9 challenge folder
 
 ## Usage
 
-e
+Open Gitbash from the Develop folder, showing the index.js file. Assuming inquirer@8.2.4 is already installed, go ahead and type "node index.js".
+Fill in the prompts. Your generated README.md file will appear in the generatedReadMe folder.
 
 ![alt text](assets/images/screenshot.png)
 
 ## Credits
+
+Edward Chang
 
 ## License
 

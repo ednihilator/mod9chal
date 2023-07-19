@@ -49,22 +49,22 @@ const questions = [
       },
       {
         name: "GNU General Public License v3.0",
-        value: `![Apache License 2.0](https://img.shields.io/badge/license-GNU-blue.svg)\n
+        value: `![GNU General Public License v3.0](https://img.shields.io/badge/license-GNU-blue.svg)\n
         This project is covered under th GNU General Public license.`,
       },
       {
         name: "BSD 3-Clause New/Revised License",
-        value: `![Apache License 2.0](https://img.shields.io/badge/license-BSD 3-Clause-blue.svg)\n
+        value: `![BSD 3-Clause New/Revised License](https://img.shields.io/badge/license-BSD3-blue.svg)\n
         This project is covered under the BSD 3-Clause New/Revised license.`,
       },
       {
         name: "Boost Software License 1.0",
-        value: `![Apache License 2.0](https://img.shields.io/badge/license-Boost Software-blue.svg)\n
+        value: `![Boost Software License 1.0](https://img.shields.io/badge/license-Boost-blue.svg)\n
         This project is covered under the Boost Software license.`,
       },
       {
         name: "Mozilla Public License 2.0",
-        value: `![Apache License 2.0](https://img.shields.io/badge/license-Mozilla-blue.svg)\n
+        value: `![Mozilla License 2.0](https://img.shields.io/badge/license-Mozilla-blue.svg)\n
         This project is covered under the Mozilla Public license.`,
       },
     ],
@@ -131,7 +131,7 @@ ${description}
 
 [questions](#questions)
 
-[contribution](#contribution)
+[contribution](#contributions)
 
 ## Installation
 

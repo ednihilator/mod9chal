@@ -1,8 +1,8 @@
-# Title Example
+# e
 
 ## Description
 
-This is an example description of a project.
+e
 
 ## Table of Contents 
 
@@ -12,38 +12,38 @@ This is an example description of a project.
 
 [questions](#questions)
 
-[contribution](#contribution)
+[contribution](#contributions)
 
 ## Installation
 
-Download the module 9 challenge folder
+e
 
 ## Usage
 
-Open gitbash, type "node index.js" and fill in the prompts
+e
 
    ![alt text](assets/images/screenshot.png)
 
 ## Credits
 
-Edward Chang
+e
 
 ## License
 
-![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Apache License 2.0](https://img.shields.io/badge/license-BSD-3-Clause-blue.svg)
 
-        This project is covered under the MIT license.
+        This project is covered under the BSD 3-Clause New/Revised license.
 
 ## Tests
 
-N/A
+e
 
 ## Contributions
 
-N/A
+e
 
 ## Questions
 
-Email: boyofpopsicle@gmail.com
+Email: 
 
-Github Profile Link: [ednihilator](https://www.github.com/ednihilator)
+Github Profile Link: [](https://www.github.com/)
